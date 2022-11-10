@@ -1,0 +1,384 @@
+body {
+  margin: 0;
+  font-family: f1;
+  background-color: black;
+}
+/* * {
+      box-sizing: border-box;
+    } */
+a {
+  text-decoration: none;
+}
+@font-face {
+  font-family: f1;
+  src: url("../../font/TESLA.ttf");
+}
+@font-face {
+  font-family: f2;
+  src: url("../../font/ua-BRAND-regular.otf");
+}
+.order-button {
+  max-width: 300px;
+  height: auto;
+  padding: 10px 5px 10px 5px;
+  border: 5px solid aliceblue;
+  border-radius: 10px;
+  transition-duration: 300ms;
+  margin: 30px;
+  cursor: pointer;
+  color: black;
+  background-color: aliceblue;
+}
+.order-button a {
+  color: black;
+}
+.order-button:hover {
+  color: black;
+  transition-duration: 300ms;
+}
+.section {
+  max-width: 100%;
+  width: 100%;
+  height: 100vh;
+}
+.section1 {
+  background-image: url("../../img/homepage-section2.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.section1-maintext {
+  text-align: center;
+  max-width: 260px;
+  padding: 10px 5px 10px 5px;
+  width: 100%;
+  margin: auto;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.section1-row {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: center;
+}
+
+.section1-row-item {
+  margin: 30px;
+  /* border: solid 5px aliceblue; */
+  text-transform: uppercase;
+  padding: 10px 5px 10px 5px;
+  border-radius: 10px;
+  color: darkgray;
+}
+.order-button {
+  max-width: 300px;
+  height: auto;
+  padding: 10px 5px 10px 5px;
+  border: 5px solid aliceblue;
+  border-radius: 10px;
+  transition-duration: 300ms;
+  margin: 30px;
+  cursor: pointer;
+  color: black;
+  background-color: aliceblue;
+}
+.betwein-section {
+  font-size: 25px;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  line-height: 100px;
+  box-shadow: 0px 0px 43px 26px #000000;
+  color: aliceblue;
+}
+/* II */
+.section2 {
+  background-image: url("../../img/Model-S-section2jpg.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+}
+/* III */
+.section3 {
+  margin: auto;
+  font-family: f2;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  color: aliceblue;
+}
+.section3-lefttext {
+  width: 50%;
+}
+.section3-lefttext span {
+  margin: 10px;
+  padding: 10px 5px 10px 5px;
+  font-size: 26px;
+}
+.section3-orderbutton {
+  text-align: center;
+  max-width: 150px;
+  border-radius: 8px;
+  margin: 30px 10px 10px 10px;
+  padding: 10px 5px 10px 5px;
+  border: 3px solid aliceblue;
+  transition-duration: 300ms;
+  font-size: 12px;
+}
+.section3-orderbutton a {
+  color: aliceblue;
+}
+.section3-orderbutton:hover a {
+  color: #000000;
+}
+.section3-orderbutton:hover {
+  background-color: aliceblue;
+  color: black;
+}
+.section3-righttext {
+  width: 50%;
+  font-size: 13px;
+  line-height: 30px;
+}
+/* IV */
+.section4 {
+  margin: auto;
+  width: 80%;
+  height: auto;
+}
+.section4-row {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.section4-row-text {
+  font-family: f2;
+  width: 50%;
+  padding: 20px;
+  color: aliceblue;
+}
+.section4-row-text-extra {
+  font-family: f2;
+  width: 50%;
+  padding: 20px;
+  color: aliceblue;
+  text-align: right;
+}
+.section4-row-text-extra span {
+  font-size: 26px;
+}
+.section4-row-text-small {
+  margin-top: 30px;
+}
+.section4-row-text span {
+  font-size: 26px;
+}
+.section4-row img {
+  width: 35%;
+}
+/* V */
+.section5 {
+  background-color: rgb(255, 255, 255);
+  /* padding: 30px; */
+  text-align: center;
+}
+.section5-text {
+  font-family: f1;
+  font-size: 24px;
+  text-transform: uppercase;
+  padding: 30px;
+}
+.section5-order-button {
+  text-align: center;
+  max-width: 150px;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding: 10px 5px 10px 5px;
+  border: 3px solid black;
+  transition-duration: 300ms;
+  font-size: 12px;
+  cursor: pointer;
+}
+.section5-order-button a {
+  color: black;
+}
+.section5-order-button:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+.section5-order-button:hover a {
+  color: aliceblue;
+}
+.section5 img {
+  width: 50%;
+}
+/* VI */
+.section6 {
+  font-family: f2;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 0px 43px 26px #000000;
+}
+.section6-leftcolum {
+  width: 20%;
+  text-align: center;
+  /* height: 100vh; */
+  background-color: rgb(255, 255, 255);
+  padding: 10px 20px 0px 20px;
+}
+.section6-leftcolum span {
+  margin: auto;
+  font-size: 22px;
+  /* padding: 30px; */
+}
+.section6-leftcolum-smalltext {
+  font-size: 0.8em;
+  text-align: justify;
+  margin: 10px;
+}
+.section6-order-button {
+  text-align: center;
+  max-width: 150px;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  padding: 10px 5px 10px 5px;
+  border: 3px solid black;
+  transition-duration: 300ms;
+  font-size: 12px;
+  cursor: pointer;
+}
+.section6-order-button a {
+  color: #000000;
+}
+.section6-order-button:hover a {
+  color: aliceblue;
+}
+.section6-order-button:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+.section6-rightcolum {
+  width: 80%;
+  background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/08585f00-c0b7-4bda-80e4-2b78406b5582/bvlatuR/std/4096x2560/Model-S-Performance-Hero-Desktop-LHD");
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.section6-rightcolum-row {
+  height: calc(100vh - 75px);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.rightcolum-row-item {
+  text-align: center;
+  display: block;
+  color: aliceblue;
+  padding: 10px;
+  margin: 20px;
+}
+.rightcolum-row-item img {
+  width: 20px;
+}
+.rightcolum-row-item span {
+  padding: 5px;
+  display: block;
+
+  font-size: 0.6em;
+}
+.section7 {
+  background-color: white;
+  font-family: f2;
+}
+/* Style the tab buttons */
+
+/* MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA */
+@media (max-width: 733px) {
+  .section1-row-item {
+    display: none;
+  }
+  .order-button {
+    max-width: auto;
+    margin: auto;
+  }
+  /* III */
+  .section3 {
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid aliceblue;
+  }
+  .section3-lefttext {
+    width: 100%;
+    text-align: center;
+  }
+  .section3-orderbutton {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .section3-lefttext span {
+    width: 100%;
+    padding: auto;
+  }
+  .section3-righttext {
+    width: 100%;
+    text-align: center;
+  }
+  /* Iv */
+  .section4 {
+    width: 100%;
+  }
+  .section4-row {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: block;
+  }
+  .section4-row-text {
+    text-align: center;
+    width: 100%;
+    padding: 0;
+  }
+  .section4-row img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .section4-row-extra {
+    display: none;
+  }
+  /* V */
+  .section5 {
+    height: auto;
+  }
+  .section5 img {
+    width: 100%;
+  }
+  /* VI */
+  .section6 {
+    display: block;
+  }
+  .section6-leftcolum {
+    width: 100%;
+    height: auto;
+    padding: 10px 0px 10px 0px;
+  }
+  .section6-leftcolum-smalltext {
+    margin: 50px;
+  }
+  .section6-rightcolum {
+    width: 100%;
+  }
+  .section6-rightcolum-row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 60vh;
+  }
+}
